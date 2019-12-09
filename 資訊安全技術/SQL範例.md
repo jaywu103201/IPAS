@@ -1,0 +1,51 @@
+# SQL
+```
+https://www.runoob.com/sql/sql-tutorial.html
+https://www.runoob.com/mysql/mysql-tutorial.html
+```
+```
+DDL---- create | drop
+DML---- Insert into| update | select ...from  ... where .... order by ....   
+DCL---- grant  | 
+
+```
+
+#
+```
+SET NAMES utf8;
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- ----------------------------
+--  Table structure for `websites`
+-- ----------------------------
+DROP TABLE IF EXISTS `websites`;
+
+CREATE TABLE `websites` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` char(20) NOT NULL DEFAULT '' COMMENT '網站名稱',
+  `url` varchar(255) NOT NULL DEFAULT '',
+  `alexa` int(11) NOT NULL DEFAULT '0' COMMENT 'Alexa 排名',
+  `country` char(10) NOT NULL DEFAULT '' COMMENT '國家',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+--  Records of `websites`
+-- ----------------------------
+BEGIN;
+INSERT INTO `websites` 
+VALUES ('1', 'Google', 'https://www.google.cm/', '1', 'USA'), 
+       ('2', '淘寶', 'https://www.taobao.com/', '13', 'CN'), 
+       ('3', '菜鳥教程', 'http://www.runoob.com/', '4689', 'CN'), 
+       ('4', '微博', 'http://weibo.com/', '20', 'CN'), 
+       ('5', 'Facebook', 'https://www.facebook.com/', '3', 'USA');
+COMMIT;
+
+
+SET FOREIGN_KEY_CHECKS = 1;
+```
+###
+```
+SELECT * 
+FROM Websites;
+```
