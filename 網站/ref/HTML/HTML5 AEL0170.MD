@@ -28,6 +28,7 @@ HTML5的宣告 -- <!DOCTYPE html>
 </html>
 ```
 ## 1-2  HTML的文字項目
+```
 	1-3-1  文字段落，<p>與<br />
 	1-3-2  文字標題，<h1>到<h6>
 
@@ -47,7 +48,9 @@ HTML5的宣告 -- <!DOCTYPE html>
 	_parent，如果您有使用頁框（frameset），連結的網頁將會以「父頁框」來呈現。
 	_self，預設值。如果您有使用頁框（frameset），在原本的頁框範圍內呈現。
 	_top，如果您有使用頁框（frameset），以「整頁」的方式來呈現，跳脫原本頁框的限制。
-1-4  HTML表單
+```
+1-3  HTML表單
+```
 	1-4-1  <form>，填寫資料的表單
 	action，接收並處理這些資訊的「網頁URL」。
 	method，常用的有get與post。
@@ -58,16 +61,13 @@ HTML5的宣告 -- <!DOCTYPE html>
 1-4-5  表單的控制項（檔案上傳）
 	實際上傳的步驟需要自己寫程式，這只是一個上傳檔案的選擇畫面罷了。
 1-4-5  <fieldset>表單的外觀與框線
-1-5  Case Study—MIS2000公司的客服網頁
-	沿用前面介紹的各種HTML標籤，我們將會逐步完成一家公司的客服網頁，
-	請參閱範例Lab.html
 
-	1-5-1  公司簡介
-	1-5-2  公司簡介，改用<address>標籤
 	1-5-3  表單<form>、外觀<fieldset>與標題<legend>
-1-6  網頁裡面的Script程式
+```
+1-4  網頁裡面的Script程式
+```
 	HTML網頁裡面如果要加入JavaScript程式或是jQuery，可以參照<script>標籤的使用。
-
+```
 
 第二章  CSS概觀
 HTML5、CSS、JavaScript 網頁程式設計與 MCSD 70-480 認證教材
