@@ -79,7 +79,6 @@ CompTIA Security+已連續3年列為CertCities.com公佈IT業10大熱門證照�
 軟體與系統取得
 電腦鑑識
 課程複習
-
-
-https://www.iiiedu.org.tw/courses/msa293t2002/
 ```
+
+# https://www.iiiedu.org.tw/courses/msa293t2002/
