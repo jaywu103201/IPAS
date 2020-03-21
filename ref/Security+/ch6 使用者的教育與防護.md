@@ -40,5 +40,14 @@
       帳戶鎖定閥值
       重設帳戶計時器的時間
 
+法案
+  健康保險流通與責任法案(HIPAA)
+  美國金融服務法案(The Gramm-Leach-Bliley Act)
+  電腦詐騙及濫用法案(CFAA)
+  家庭教育權利及隱私法案(FERPA)
+  1987年電腦安全法案(The Computer Security Act of 1987)
+  網路電子安全法案(CESA)
+  網路安全加強法案(The Cyber Security Enhancement Act)
+  愛國者法案(The Patriot Act)
 
 ```
