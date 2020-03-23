@@ -71,7 +71,20 @@
 ```  
 4. 事故管理與營運持續	 
   4.1.事件與事故管理
+    資訊安全事故(Security Incident)與資安事件（Security Event）
+    資訊安全事件通報
+    資安事故應變與處理程序
   4.2.備援與營運持續
+    備援與備份(Backup)
+    備援與備份(Backup):重要指標
+      復原點目標（Recovery Point Objective， RPO）
+      復原時間目標（Recovery Time Objective， RTO）
+      最大可容忍的中斷時間（Maximum Tolerable Period of Disruption， MTPD）
+    備份的各種方式:完整備份（Full Backup）|差異備份（Differential Backup）
+                   增量備份（Incremental Backup）|選擇式備份（Selective Backup）
+    異地備援
+    企業營運持續計畫
+    營運持續管理的國際標準
 ```
 # 5.法規遵循與資訊倫理
 ```
