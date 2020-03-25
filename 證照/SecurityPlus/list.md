@@ -15,8 +15,8 @@ Appendix Answers to Review Questions 559
 ```
 
 # Domain 1.0 Threats, Attacks and Vulnerabilities
+### 1.1 Given a scenario, analyze indicators of compromise and determine the type of malware.
 ```
-1.1 Given a scenario, analyze indicators of compromise and determine the type of malware.
 ■ Viruses          
 ■ Crypto-malware   
 ■ Ransomware       
@@ -30,8 +30,9 @@ Appendix Answers to Review Questions 559
 ■ RAT               
 ■ Logic bomb       
 ■ Backdoor         。
-
-1.2 Compare and contrast types of attacks.
+```
+### 1.2 Compare and contrast types of attacks.
+```
 ■ Social engineering   
 ■ Phishing             
 ■ Spear phishing       
@@ -101,8 +102,9 @@ Appendix Answers to Review Questions 559
 ■ Downgrade
 ■ Replay                
 ■ Weak implementations
-
-1.3 Explain threat actor types and attributes.
+```
+### 1.3 Explain threat actor types and attributes.
+```
 ■ Types of actors
 ■ Script kiddies      
 ■ Hacktivist
@@ -116,8 +118,9 @@ Appendix Answers to Review Questions 559
 ■ Resources/funding
 ■ Intent/motivation
 ■ Use of open-source intelligence 
-
-1.4 Explain penetration testing concepts.
+```
+### 1.4 Explain penetration testing concepts.
+```
 ■ Active reconnaissance
 ■ Passive reconnaissance
 ■ Pivot
@@ -128,8 +131,9 @@ Appendix Answers to Review Questions 559
 ■ White box
 ■ Gray box
 ■ Pen testing vs. vulnerability scanning 
-
-1.5 Explain vulnerability scanning concepts.
+```
+### 1.5 Explain vulnerability scanning concepts.
+```
 ■ Passively test security controls
 ■ Identify vulnerability
 ■ Identify lack of security controls
@@ -137,8 +141,9 @@ Appendix Answers to Review Questions 559
 ■ Intrusive vs. non-intrusive
 ■ Credentialed vs. non-credentialed
 ■ False positive
-
-1.6 Explain the impact associated with types of vulnerabilities.
+```
+### 1.6 Explain the impact associated with types of vulnerabilities.
+```
 ■ Race conditions
 ■ Vulnerabilities due to:
 ■ End-of-life systems
@@ -165,8 +170,9 @@ Appendix Answers to Review Questions 559
 ■ Improper certificate and key management
 ```
 # Domain 2.0 Technologies and Tools 
+
+### 2.1 Install and configure network components, both hardware- and softwarebased, to support organizational security.
 ```
-2.1 Install and configure network components, both hardware- and softwarebased, to support organizational security.
 ■ Firewall
 ■ ACL
 ■ Application-based vs. network-based
@@ -243,8 +249,9 @@ Appendix Answers to Review Questions 559
 ■ SSL decryptors
 ■ Media gateway
 ■ Hardware security module
-
-2.2 Given a scenario, use appropriate software tools to assess the security posture of an organization.
+```
+### 2.2 Given a scenario, use appropriate software tools to assess the security posture of an organization.
+```
 ■ Protocol analyzer
 ■ Network scanners
 ■ Rogue system detection
@@ -270,8 +277,9 @@ Appendix Answers to Review Questions 559
 ■ tcpdump
 ■ nmap
 ■ netcat
-
-2.3 Given a scenario, troubleshoot common security issues.
+```
+### 2.3 Given a scenario, troubleshoot common security issues.
+```
 ■ Unencrypted credentials/clear text
 ■ Logs and events anomalies
 ■ Permission issues
@@ -294,8 +302,9 @@ Appendix Answers to Review Questions 559
 ■ License compliance violation (availability/integrity)
 ■ Asset management
 ■ Authentication issues
-
-2.4 Given a scenario, analyze and interpret output from security technologies.
+```
+### 2.4 Given a scenario, analyze and interpret output from security technologies.
+```
 ■ HIDS/HIPS
 ■ Antivirus
 ■ File integrity check
@@ -308,8 +317,9 @@ Appendix Answers to Review Questions 559
 ■ DLP
 ■ Data execution prevention
 ■ Web application firewall
-
-2.5 Given a scenario, deploy mobile devices securely.
+```
+### 2.5 Given a scenario, deploy mobile devices securely.
+```
 ■ Connection methods
 ■ Cellular
 ■ WiFi
@@ -355,8 +365,9 @@ Appendix Answers to Review Questions 559
 ■ CYOD
 ■ Corporate-owned
 ■ VDI
-
-2.6 Given a scenario, implement secure protocols.
+```
+### 2.6 Given a scenario, implement secure protocols.
+```
 ■ Protocols
 ■ DNSSEC
 ■ SSH
@@ -382,8 +393,9 @@ Appendix Answers to Review Questions 559
 ■ Subscription services
 ```
 # Domain 3.0 Architecture and Design 
-``` 
-3.1 Explain use cases and purpose for frameworks, best practices and secure configuration guides.
+
+### 3.1 Explain use cases and purpose for frameworks, best practices and secure configuration guides.
+```
 ■ Industry-standard frameworks and reference architectures
 ■ Regulatory
 ■ Non-regulatory
@@ -402,8 +414,9 @@ Appendix Answers to Review Questions 559
 ■ Administrative
 ■ Technical
 ■ User training
-
-3.2 Given a scenario, implement secure network architecture concepts.
+```
+### 3.2 Given a scenario, implement secure network architecture concepts.
+```
 ■ Zones/topologies
 ■ DMZ
 ■ Extranet
@@ -435,8 +448,9 @@ Appendix Answers to Review Questions 559
 ■ Aggregation switches
 ■ Taps and port mirror
 ■ SDN
-
-3.3 Given a scenario, implement secure systems design.
+```
+###  3.3 Given a scenario, implement secure systems design.
+```
 ■ Hardware/firmware security
 ■ FDE/SED
 ■ TPM
@@ -469,8 +483,9 @@ Appendix Answers to Review Questions 559
 ■ Printers/MFDs
 ■ External storage devices
 ■ Digital cameras
-
-3.4 Explain the importance of secure staging deployment concepts.
+```
+### 3.4 Explain the importance of secure staging deployment concepts.
+```
 ■ Sandboxing
 ■ Environment
 ■ Development
@@ -479,8 +494,9 @@ Appendix Answers to Review Questions 559
 ■ Production
 ■ Secure baseline
 ■ Integrity measurement
-
-3.5 Explain the security implications of embedded systems.
+```
+### 3.5 Explain the security implications of embedded systems.
+```
 ■ SCADA/ICS
 ■ Smart devices/IoT
 ■ Wearable technology
@@ -494,8 +510,9 @@ Appendix Answers to Review Questions 559
 ■ Medical devices
 ■ Vehicles
 ■ Aircraft/UAV
-
-3.6 Summarize secure application development and deployment concepts.
+```
+### 3.6 Summarize secure application development and deployment concepts.
+```
 ■ Development life-cycle models
 ■ Waterfall vs. Agile
 ■ Secure DevOps
@@ -526,7 +543,9 @@ Appendix Answers to Review Questions 559
 ■ Sandboxing
 ■ Model verification
 ■ Compiled vs. runtime code
-3.7 Summarize cloud and virtualization concepts.
+```
+### 3.7 Summarize cloud and virtualization concepts.
+```
 ■ Hypervisor
 ■ Type I
 ■ Type II
@@ -546,8 +565,9 @@ Appendix Answers to Review Questions 559
 ■ VDI/VDE
 ■ Cloud access security broker
 ■ Security as a Service
-
-3.8 Explain how resiliency and automation strategies reduce risk.
+```
+### 3.8 Explain how resiliency and automation strategies reduce risk.
+```
 ■ Automation/scripting
 ■ Automated courses of action
 ■ Continuous monitoring
@@ -566,8 +586,9 @@ Appendix Answers to Review Questions 559
 ■ Fault tolerance
 ■ High availability
 ■ RAID
-
-3.9 Explain the importance of physical security controls.
+```
+### 3.9 Explain the importance of physical security controls.
+```
 ■ Lighting
 ■ Signs
 ■ Fencing/gate/cage
@@ -596,8 +617,9 @@ Appendix Answers to Review Questions 559
 ■ Key management
 ```
 # Domain 4.0 Identity and Access Management
+
+### 4.1 Compare and contrast identity and access management concepts.
 ```
-4.1 Compare and contrast identity and access management concepts.
 ■ Identification, authentication, authorization and accounting (AAA)
 ■ Multifactor authentication
 ■ Something you are
@@ -609,8 +631,9 @@ Appendix Answers to Review Questions 559
 ■ Federation
 ■ Single sign-on
 ■ Transitive trust
-
-4.2 Given a scenario, install and configure identity and access services.
+```
+### 4.2 Given a scenario, install and configure identity and access services.
+```
 ■ LDAP
 ■ Kerberos
 ■ TACACS+
@@ -624,8 +647,9 @@ Appendix Answers to Review Questions 559
 ■ Shibboleth
 ■ Secure token
 ■ NTLM
-
-4.3 Given a scenario, implement identity and access management controls.
+```
+### 4.3 Given a scenario, implement identity and access management controls.
+```
 ■ Access control models
 ■ MAC
 ■ DAC
@@ -653,8 +677,9 @@ Appendix Answers to Review Questions 559
 ■ IEEE 802.1x
 ■ File system security
 ■ Database security
-
-4.4 Given a scenario, differentiate common account management practices.
+```
+### 4.4 Given a scenario, differentiate common account management practices.
+```
 ■ Account types
 ■ User account
 ■ Shared and generic accounts/credentials
@@ -685,8 +710,9 @@ Appendix Answers to Review Questions 559
 ■ Password length
 ```
 # Domain 5.0 Risk Management 風險管理
+
+### 5.1 Explain the importance of policies, plans and procedures related to organizational security.
 ```
-5.1 Explain the importance of policies, plans and procedures related to organizational security.
 ■ Standard operating procedure
 ■ Agreement types
 ■ BPA
@@ -715,8 +741,9 @@ Appendix Answers to Review Questions 559
 ■ General security policies
 ■ Social media networks/applications
 ■ Personal email
-
-5.2 Summarize business impact analysis concepts.
+```
+### 5.2 Summarize business impact analysis concepts.
+```
 ■ RTO/RPO
 ■ MTBF
 ■ MTTR
@@ -731,8 +758,9 @@ Appendix Answers to Review Questions 559
 ■ Reputation
 ■ Privacy impact assessment
 ■ Privacy threshold assessment
-
-5.3 Explain risk management processes and concepts.
+```
+### 5.3 Explain risk management processes and concepts.
+```
 ■ Threat assessment
 ■ Environmental
 ■ Manmade
@@ -757,8 +785,9 @@ Appendix Answers to Review Questions 559
 ■ Avoid
 ■ Mitigate
 ■ Change management
-
-5.4 Given a scenario, follow incident response procedures.
+```
+### 5.4 Given a scenario, follow incident response procedures.
+```
 ■ Incident response plan
 ■ Documented incident types/category definitions
 ■ Roles and responsibilities
@@ -772,8 +801,9 @@ Appendix Answers to Review Questions 559
 ■ Eradication
 ■ Recovery
 ■ Lessons learned
-
-5.5 Summarize basic concepts of forensics.
+```
+### 5.5 Summarize basic concepts of forensics.
+```
 ■ Order of volatility
 ■ Chain of custody
 ■ Legal hold
@@ -791,8 +821,9 @@ Appendix Answers to Review Questions 559
 ■ Strategic intelligence/counterintelligence gathering
 ■ Active logging
 ■ Track man-hours
-
-5.6 Explain disaster recovery and continuity of operation concepts.
+```
+### 5.6 Explain disaster recovery and continuity of operation concepts.
+```
 ■ Recovery sites
 ■ Hot site
 ■ Warm site
@@ -816,8 +847,9 @@ Appendix Answers to Review Questions 559
 ■ Introduction lv
 ■ Alternate processing sites
 ■ Alternate business practices
-
-5.7 Compare and contrast various types of controls.
+```
+### 5.7 Compare and contrast various types of controls.
+```
 ■ Deterrent
 ■ Preventive
 ■ Detective
@@ -826,8 +858,9 @@ Appendix Answers to Review Questions 559
 ■ Technical
 ■ Administrative
 ■ Physical
-
-5.8 Given a scenario, carry out data security and privacy practices.
+```
+### 5.8 Given a scenario, carry out data security and privacy practices.
+```
 ■ Data destruction and media sanitization
 ■ Burning
 ■ Shredding
@@ -851,8 +884,9 @@ Appendix Answers to Review Questions 559
 ■ Legal and compliance
 ```
 # Domain 6.0 Cryptography and PKI
+
+### 6.1 Compare and contrast basic concepts of cryptography.
 ```
-6.1 Compare and contrast basic concepts of cryptography.
 ■ Symmetric algorithms
 ■ Modes of operation
 ■ Asymmetric algorithms
@@ -893,8 +927,9 @@ Appendix Answers to Review Questions 559
 ■ Supporting authentication
 ■ Supporting non-repudiation
 ■ Resource vs. security constraints
-
-6.2 Explain cryptography algorithms and their basic characteristics.
+```
+### 6.2 Explain cryptography algorithms and their basic characteristics.
+```
 ■ Symmetric algorithms
 ■ AES
 ■ DES
@@ -929,8 +964,9 @@ Appendix Answers to Review Questions 559
 ■ XOR
 ■ ROT13
 ■ Substitution ciphers
-
-6.3 Given a scenario, install and configure wireless security settings.
+```
+### 6.3 Given a scenario, install and configure wireless security settings.
+```
 ■ Cryptographic protocols
 ■ WPA
 ■ WPA2
@@ -948,8 +984,9 @@ Appendix Answers to Review Questions 559
 ■ PSK vs. Enterprise vs. Open
 ■ WPS
 ■ Captive portals
-
-6.4 Given a scenario, implement public key infrastructure.
+```
+### 6.4 Given a scenario, implement public key infrastructure.
+```
 ■ Components
 ■ CA
 ■ Intermediate CA
