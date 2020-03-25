@@ -31,7 +31,7 @@ Appendix Answers to Review Questions 559
 ■ Logic bomb       
 ■ Backdoor         。
 
-1.2 Compare and contrast types of attacks.
+1.2 Compare and contrast types of attacks 攻擊類型
 ■ Social engineering   
 ■ Phishing             
 ■ Spear phishing       
@@ -129,7 +129,7 @@ Appendix Answers to Review Questions 559
 ■ Gray box灰箱
 ■ Pen testing vs. vulnerability scanning 
 
-1.5 Explain vulnerability scanning concepts.
+1.5 Explain vulnerability scanning[漏洞掃描] concepts.
 ■ Passively test security controls
 ■ Identify vulnerability
 ■ Identify lack of security controls
