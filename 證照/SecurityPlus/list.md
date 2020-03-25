@@ -17,11 +17,11 @@ Appendix Answers to Review Questions 559
 # Domain 1.0 Threats, Attacks and Vulnerabilities
 ```
 1.1 Given a scenario, analyze indicators of compromise and determine the type of malware.
- ■ Viruses          
- ■ Crypto-malware   
- ■ Ransomware       
- ■ Worm             
- ■ Trojan           。
+■ Viruses          
+■ Crypto-malware   
+■ Ransomware       
+■ Worm             
+■ Trojan           。
 ■ Rootkit           
 ■ Keylogger         
 ■ Adware            
@@ -31,7 +31,7 @@ Appendix Answers to Review Questions 559
 ■ Logic bomb       
 ■ Backdoor         。
 
-1.2 Compare and contrast types of attacks 攻擊類型
+1.2 Compare and contrast types of attacks.
 ■ Social engineering   
 ■ Phishing             
 ■ Spear phishing       
@@ -124,12 +124,12 @@ Appendix Answers to Review Questions 559
 ■ Initial exploitation
 ■ Persistence
 ■ Escalation of privilege  #Privilege escalation
-■ Black box黑箱
-■ White box白箱
-■ Gray box灰箱
+■ Black box
+■ White box
+■ Gray box
 ■ Pen testing vs. vulnerability scanning 
 
-1.5 Explain vulnerability scanning[漏洞掃描] concepts.
+1.5 Explain vulnerability scanning concepts.
 ■ Passively test security controls
 ■ Identify vulnerability
 ■ Identify lack of security controls
@@ -356,7 +356,7 @@ Appendix Answers to Review Questions 559
 ■ Corporate-owned
 ■ VDI
 
-2.6 Given a scenario, implement secure protocols.安全協定
+2.6 Given a scenario, implement secure protocols.
 ■ Protocols
 ■ DNSSEC
 ■ SSH
@@ -381,10 +381,9 @@ Appendix Answers to Review Questions 559
 ■ Network address allocation
 ■ Subscription services
 ```
-# Domain 3.0 Architecture and Design 安全架構與設計
+# Domain 3.0 Architecture and Design 
 ``` 
-3.1 Explain use cases and purpose for frameworks, best practices and secure
-configuration guides.
+3.1 Explain use cases and purpose for frameworks, best practices and secure configuration guides.
 ■ Industry-standard frameworks and reference architectures
 ■ Regulatory
 ■ Non-regulatory
@@ -403,6 +402,7 @@ configuration guides.
 ■ Administrative
 ■ Technical
 ■ User training
+
 3.2 Given a scenario, implement secure network architecture concepts.
 ■ Zones/topologies
 ■ DMZ
@@ -435,6 +435,7 @@ configuration guides.
 ■ Aggregation switches
 ■ Taps and port mirror
 ■ SDN
+
 3.3 Given a scenario, implement secure systems design.
 ■ Hardware/firmware security
 ■ FDE/SED
@@ -468,6 +469,7 @@ configuration guides.
 ■ Printers/MFDs
 ■ External storage devices
 ■ Digital cameras
+
 3.4 Explain the importance of secure staging deployment concepts.
 ■ Sandboxing
 ■ Environment
@@ -477,6 +479,7 @@ configuration guides.
 ■ Production
 ■ Secure baseline
 ■ Integrity measurement
+
 3.5 Explain the security implications of embedded systems.
 ■ SCADA/ICS
 ■ Smart devices/IoT
@@ -491,6 +494,7 @@ configuration guides.
 ■ Medical devices
 ■ Vehicles
 ■ Aircraft/UAV
+
 3.6 Summarize secure application development and deployment concepts.
 ■ Development life-cycle models
 ■ Waterfall vs. Agile
@@ -542,6 +546,7 @@ configuration guides.
 ■ VDI/VDE
 ■ Cloud access security broker
 ■ Security as a Service
+
 3.8 Explain how resiliency and automation strategies reduce risk.
 ■ Automation/scripting
 ■ Automated courses of action
@@ -561,6 +566,7 @@ configuration guides.
 ■ Fault tolerance
 ■ High availability
 ■ RAID
+
 3.9 Explain the importance of physical security controls.
 ■ Lighting
 ■ Signs
@@ -589,20 +595,21 @@ configuration guides.
 ■ Infrared detection
 ■ Key management
 ```
-# Domain 4.0 Identity and Access Management身分驗證與存取管理
+# Domain 4.0 Identity and Access Management
 ```
 4.1 Compare and contrast identity and access management concepts.
 ■ Identification, authentication, authorization and accounting (AAA)
 ■ Multifactor authentication
 ■ Something you are
 ■ Something you have
-Introduction xlix
+■ Introduction xlix
 ■ Something you know
 ■ Somewhere you are
 ■ Something you do
 ■ Federation
 ■ Single sign-on
 ■ Transitive trust
+
 4.2 Given a scenario, install and configure identity and access services.
 ■ LDAP
 ■ Kerberos
@@ -617,6 +624,7 @@ Introduction xlix
 ■ Shibboleth
 ■ Secure token
 ■ NTLM
+
 4.3 Given a scenario, implement identity and access management controls.
 ■ Access control models
 ■ MAC
@@ -645,6 +653,7 @@ Introduction xlix
 ■ IEEE 802.1x
 ■ File system security
 ■ Database security
+
 4.4 Given a scenario, differentiate common account management practices.
 ■ Account types
 ■ User account
@@ -677,8 +686,7 @@ Introduction xlix
 ```
 # Domain 5.0 Risk Management 風險管理
 ```
-5.1 Explain the importance of policies, plans and procedures related to
-organizational security.
+5.1 Explain the importance of policies, plans and procedures related to organizational security.
 ■ Standard operating procedure
 ■ Agreement types
 ■ BPA
@@ -707,6 +715,7 @@ organizational security.
 ■ General security policies
 ■ Social media networks/applications
 ■ Personal email
+
 5.2 Summarize business impact analysis concepts.
 ■ RTO/RPO
 ■ MTBF
@@ -722,6 +731,7 @@ organizational security.
 ■ Reputation
 ■ Privacy impact assessment
 ■ Privacy threshold assessment
+
 5.3 Explain risk management processes and concepts.
 ■ Threat assessment
 ■ Environmental
@@ -747,6 +757,7 @@ organizational security.
 ■ Avoid
 ■ Mitigate
 ■ Change management
+
 5.4 Given a scenario, follow incident response procedures.
 ■ Incident response plan
 ■ Documented incident types/category definitions
@@ -761,11 +772,12 @@ organizational security.
 ■ Eradication
 ■ Recovery
 ■ Lessons learned
+
 5.5 Summarize basic concepts of forensics.
 ■ Order of volatility
 ■ Chain of custody
 ■ Legal hold
-liv Introduction
+■ liv Introduction
 ■ Data acquisition
 ■ Capture system image
 ■ Network traffic and logs
@@ -779,6 +791,7 @@ liv Introduction
 ■ Strategic intelligence/counterintelligence gathering
 ■ Active logging
 ■ Track man-hours
+
 5.6 Explain disaster recovery and continuity of operation concepts.
 ■ Recovery sites
 ■ Hot site
@@ -800,9 +813,10 @@ liv Introduction
 ■ Exercises/tabletop
 ■ After-action reports
 ■ Failover
-Introduction lv
+■ Introduction lv
 ■ Alternate processing sites
 ■ Alternate business practices
+
 5.7 Compare and contrast various types of controls.
 ■ Deterrent
 ■ Preventive
@@ -812,6 +826,7 @@ Introduction lv
 ■ Technical
 ■ Administrative
 ■ Physical
+
 5.8 Given a scenario, carry out data security and privacy practices.
 ■ Data destruction and media sanitization
 ■ Burning
@@ -867,7 +882,7 @@ Introduction lv
 ■ Crypto modules
 ■ Perfect forward secrecy
 ■ Security through obscurity
-Introduction lvii
+■ Introduction lvii
 ■ Common use cases
 ■ Low power devices
 ■ Low latency
@@ -878,6 +893,7 @@ Introduction lvii
 ■ Supporting authentication
 ■ Supporting non-repudiation
 ■ Resource vs. security constraints
+
 6.2 Explain cryptography algorithms and their basic characteristics.
 ■ Symmetric algorithms
 ■ AES
@@ -900,7 +916,7 @@ Introduction lvii
 ■ ECDHE
 ■ Elliptic curve
 ■ PGP/GPG
-lviii Introduction
+■ lviii Introduction
 ■ Hashing algorithms
 ■ MD5
 ■ SHA
@@ -913,6 +929,7 @@ lviii Introduction
 ■ XOR
 ■ ROT13
 ■ Substitution ciphers
+
 6.3 Given a scenario, install and configure wireless security settings.
 ■ Cryptographic protocols
 ■ WPA
@@ -936,7 +953,7 @@ lviii Introduction
 ■ Components
 ■ CA
 ■ Intermediate CA
-Introduction lix
+■ Introduction lix
 ■ CRL 
 ■ OCSP 
 ■ CSR 
