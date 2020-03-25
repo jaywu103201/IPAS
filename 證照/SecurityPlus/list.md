@@ -80,8 +80,7 @@ Appendix Answers to Review Questions 559
 ■ MAC spoofing
 ■ IP spoofing         
 ■ Wireless attacks
-■ Replay                
-■ IV                    
+■ Replay              
 ■ Evil twin            
 ■ Rogue AP              
 ■ Jamming
