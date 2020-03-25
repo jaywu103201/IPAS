@@ -1,10 +1,17 @@
 # Domain 1.0 Threats, Attacks and Vulnerabilities
 ```
-	1.	John is analyzing strange behavior on computers in his network. He believes there is malware on the machines. The symptoms include strange behavior that persists, even if he boots the machine to a Linux Live CD. What is the most likely cause?
+1.John is analyzing strange behavior on computers in his network. He believes there is malware on the machines. The symptoms include strange behavior that persists, even if he boots the machine to a Linux Live CD. What is the most likely cause?
 A. Ransomware  B. Boot sector virus  C. Rootkit  D. Key logger
+```
+```
+
 	2.	Ahmed is a sales manager with a major insurance company. He has received an email that is encouraging him to click on a link and fill out a survey. He is suspicious of the email,but it does mention a major insurance association, and that makes him think it might be legitimate. Which of the following best describes this attack?  A. Phishing  B. Social engineering  C. Spear phishing D. Trojan horse
+```
+```
 	3.	You are a security administrator for a medium-sized bank. You have discovered a piece of software on your bank’s database server that is not supposed to be there. It appears that the software will begin deleting database files if a specific employee is terminated. What best describes this?  A. Worm  B. Logic bomb  
 C. Trojan horse  D. Rootkit
+```
+```	
 	4.	You are responsible for incident response at Acme bank. The Acme bank website has been attacked. The attacker used the login screen, but rather than enter login credentials, he or she entered some odd text: ' or '1' = '1. What is the best description for this attack?  A. Cross-site scripting  B. Cross-site request forgery
 C. SQL injection  D. ARP poisoning
 	5.	Juanita is a network administrator for a small accounting firm. The users on her network are complaining of slow connectivity. When she examines the firewall logs, she observes a large number of half-open connections. What best describes this attack?  A. DDoS  B. SYN flood  C. Buffer overflow  D. ARP poisoning
