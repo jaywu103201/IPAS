@@ -16,8 +16,7 @@ Appendix Answers to Review Questions 559
 
 # Domain 1.0 Threats, Attacks and Vulnerabilities
 ```
-1.1 Given a scenario, analyze indicators of compromise and determine the
-type of malware.
+1.1 Given a scenario, analyze indicators of compromise and determine the type of malware.
  ■ Viruses          
  ■ Crypto-malware   
  ■ Ransomware       
