@@ -87,7 +87,22 @@
     3.3.3.Linux作業系統日誌及其管理
     3.3.4.Apache網站伺服器日誌及其管理
     
-    OWASP Top 10 Proactive Controls 2018
+OWASP Top 10 Proactive Controls 2018   
+The OWASP Top Ten Proactive Controls describes the most important control and control categories 
+that every architect and developer should absolutely, 100% include in every project
+https://owasp.org/www-project-proactive-controls/
+
+C1: Define Security Requirements
+C2: Leverage Security Frameworks and Libraries
+C3: Secure Database Access
+C4: Encode and Escape Data
+C5: Validate All Inputs
+C6: Implement Digital Identity
+C7: Enforce Access Controls
+C8: Protect Data Everywhere
+C9: Implement Security Logging and Monitoring
+C10: Handle All Errors and Exceptions
+    
 ```
 # 4.新興科技安全
 ```
