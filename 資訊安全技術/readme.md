@@ -76,6 +76,8 @@
             Full Backup |Incremental Backup|Differential backup|選擇式備份
             冷備份|熱備份
      3.2.6.備份儲存(Storage media): RAID  SAN NAS
+            RAID 0+1 vs RAID 1+0   RAID 5+0
+           https://zh.wikipedia.org/wiki/RAID#RAID_10/01 
      3.2.7.備份管理(backup)類型:Online | Near-line | Off-line | Off-site data protection | Backup site
  ```
  ```
