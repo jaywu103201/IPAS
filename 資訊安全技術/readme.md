@@ -107,8 +107,9 @@ C10: Handle All Errors and Exceptions
 # 4.新興科技安全
 ```
   4.1.雲端安全概論cloud security
-    4.1.1.雲端運算cloud computing
+    4.1.1.雲端運算cloud computing:Iaas Paas Saas  
     4.1.2.雲端運算實戰>>>visualizationv虛擬化技術 vs docker(雲端容器技術container)
+          '兩種虛擬化技術:Type 1 vs Type 2
     4.1.3.雲端系統漏洞分析
        OWASP Cloud-Native Application Security Top 10
        OWASP Top 10 Cloud Security Risk
