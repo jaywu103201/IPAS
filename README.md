@@ -1,3 +1,8 @@
+# 參考資料
+```
+大学霸 Kali Linux 安全渗透教程
+https://wizardforcel.gitbooks.io/daxueba-kali-linux-tutorial/index.html
+```
 # 考試通知
 ```
 https://www.ipas.org.tw/reg/Home/Index
