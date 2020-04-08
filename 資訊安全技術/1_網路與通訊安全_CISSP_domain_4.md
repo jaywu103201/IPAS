@@ -32,7 +32,9 @@ D. TCP
 ```
 
 ```
-5. Which of the following can take place if an attacker can insert tagging values into network- and switch-based protocols with the goal of manipulating traffic at the data link layer?
+5. Which of the following can take place if an attacker can insert tagging values 
+into network- and switch-based protocols with the goal of manipulating traffic 
+at the data link layer?
 A. Open relay manipulation
 B. VLAN hopping attack
 C. Hypervisor denial-of-service attack
@@ -64,7 +66,8 @@ D. Network, transport, application, session, and presentation
 ```
 
 ```
-9. Which of the following technologies integrates previously independent security solutions with the goal of providing simplicity, centralized control, and streamlined processes?
+9. Which of the following technologies integrates previously independent security solutions 
+with the goal of providing simplicity, centralized control, and streamlined processes?
 A. Network convergence
 B. Security as a service
 C. Unified threat management
@@ -330,8 +333,15 @@ A. WiMAX
 B. IEEE 802.12
 C. WPA2
 D. IEEE 802.15
+```
 
-Use the following scenario to answer Questions 36–38. Lance has been brought in as a new security officer for a large medical equipment company. He has been told that many of the firewalls and IDS products have not been configured to filter IPv6 traffic; thus, many attacks have been taking place without the knowledge of the security team. While the network team has attempted to implement an automated tunneling feature to take care of this issue, they have continually run into problems with the network’s NAT device. Lance has also found out that caching attacks have been successful against the company’s public-facing DNS server. He has also identified that extra authentication is necessary for current LDAP requests, but the current technology only provides password-based authentication options.
+```
+Use the following scenario to answer Questions 36–38. 
+Lance has been brought in as a new security officer for a large medical equipment company. 
+He has been told that many of the firewalls and IDS products have not been configured 
+to filter IPv6 traffic; thus, many attacks have been taking place 
+without the knowledge of the security team. 
+While the network team has attempted to implement an automated tunneling feature to take care of this issue, they have continually run into problems with the network’s NAT device. Lance has also found out that caching attacks have been successful against the company’s public-facing DNS server. He has also identified that extra authentication is necessary for current LDAP requests, but the current technology only provides password-based authentication options.
 
 36. Based upon the information in the scenario, what should the network team implement as it pertains to IPv6 tunneling?
 A. Teredo should be configured on IPv6-aware hosts that reside behind the NAT device.
@@ -351,24 +361,28 @@ A. Challenge Handshake Authentication Protocol
 B. Simple Authentication and Security Layer
 C. IEEE 802.2AB
 D. EAP-SSL
+```
 
+```
 39. Wireless LAN technologies have gone through different versions over the years to address some of the inherent security issues within the original IEEE 802.11 standard. Which of the following provides the correct characteristics of Wi-Fi Protected Access 2 (WPA2)?
 A. IEEE 802.1X, WEP, MAC
 B. IEEE 802.1X, EAP, TKIP
 C. IEEE 802.1X, EAP, WEP
 D. IEEE 802.1X, EAP, CCMP
+```
 
+```
 40. Alice wants to send a message to Bob, who is several network hops away from her. What is the best approach to protecting the confidentiality of the message?
 A. PPTP
 B. S/MIME
 C. Link encryption
 D. SSH
+```
 
+```
 41. Charlie uses PGP on his Linux-based email client. His friend Dave uses S/MIME on his Windows-based email. Charlie is unable to send an encrypted email to Dave. What is the likely reason?
 A. PGP and S/MIME are incompatible
 B. Each has a different secret key
 C. Each is using a different CA
 D. There is not enough information to determine the likely reason
-
-
 ```
