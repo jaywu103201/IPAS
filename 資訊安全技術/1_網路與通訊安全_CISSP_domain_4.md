@@ -95,6 +95,10 @@ A. Open relay manipulation
 B. VLAN hopping attack
 C. Hypervisor denial-of-service attack
 D. Smurf attack
+
+
+Virtual LAN (VLAN) Attack 虛擬區域網絡攻擊
+https://www.jannet.hk/zh-Hant/post/virtual-lan-vlan-attack/
 ```
 
 ```
