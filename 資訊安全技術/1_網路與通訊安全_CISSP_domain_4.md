@@ -6,6 +6,15 @@ B. It decreases the IV size and uses the AES algorithm.
 C. It adds more keying material.
 D. It uses MAC and IP filtering.
 ```
+```
+解答: C
+臨時金鑰完整性協定（英文：Temporal Key Integrity Protocol，縮寫：TKIP）是一種用於IEEE 802.11無線網路標準中的  替代性安全協定，由電氣電子工程師學會（IEEE）802.11i任務組和Wi-Fi聯盟設計，用以在不需要升級硬體的基礎上替代有線等效加密（WEP）協定。
+由於WEP協定的薄弱造成了資料鏈路層安全被完全跳過，且由於已經應用的大量按照WEP要求製造的網路硬體急需更新更可靠的安全協定，
+在此背景下臨時金鑰完整性協定應運而生。
+
+
+需要注意的是，臨時金鑰完整性協定自2012年的802.11標準中，已不再視為安全，且即將廢棄
+```
 
 ```
 2. Which of the following is not a characteristic of the IEEE 802.11a standard?
@@ -13,6 +22,37 @@ A. It works in the 5-GHz range.
 B. It uses the OFDM spread spectrum technology.
 C. It provides 52 Mbps in bandwidth.
 D. It covers a smaller distance than 802.11b.
+```
+```
+解答: C
+IEEE 802.11
+IEEE 802.11a
+IEEE 802.11b
+IEEE 802.11n
+
+1.工作頻率為5GHz
+2.使用52個正交頻分多路復用副載波OFDM spread spectrum technology，
+3.最大原始數據傳輸率為54Mb/s，
+4.這達到了現實網絡中等吞吐量（20Mb/s）的要求。
+5.如果需要的話，數據率可降為48，36，24，18，12，9或者6Mb/s。
+6.802.11a擁有12條不相互重疊的頻道，8條用於室內，4條用於點對點傳輸。
+7.它不能與IEEE 802.11b進行互操作，除非使用了對兩種標準都採用的設備。
+```
+```
+IEEE 802.11b standard
+ 
+ 
+```
+```
+下一代行動網路聯盟（Next Generation Mobile Networks Alliance）定義了5G網路的以下要求：
+
+以10Gbps的資料傳輸速率支援數萬用戶；
+以1Gbps的資料傳輸速率同時提供給在同一樓辦公的許多人員；
+支援數十萬的並發連接以用於支援大規模傳感器網路的部署；
+頻譜效率應當相比4G被顯著增強；
+覆蓋率比4G有所提高；
+信令效率應得到加強；
+延遲應顯著低於LTE。
 ```
 
 ```
@@ -22,13 +62,29 @@ B. They are just as unsafe as nonswitched environments.
 C. The data link encryption does not permit wiretapping.
 D. Switches are more intelligent than bridges and implement security mechanisms.
 ```
-
+```
+解答: A
+ switched infrastructures ==> VLAN
+  routed networks
+```
+# 4
 ```
 4. Which of the following protocols is considered connection-oriented?
 A. IP
 B. ICMP
 C. UDP
 D. TCP
+```
+```
+解答: D
+connection vs connectionless
+
+TCP的五項特性:
+連線導向的(Connection Oriented)傳輸協定
+同步傳輸(Synchronous Transmission)
+可靠的(Reliable)傳輸協定
+較無效率的(Inefficient)傳輸協定
+流量控制(Flow Control)
 ```
 
 ```
@@ -56,7 +112,7 @@ B. Unified threat management modem
 C. Virtual firewall
 D. Internet Security Association and Key Management Protocol
 ```
-
+# 8
 ```
 8. Which of the following shows the layer sequence as layers 2, 5, 7, 4, and 3?
 A. Data link, session, application, transport, and network
@@ -64,7 +120,9 @@ B. Data link, transport, application, session, and network
 C. Network, session, application, network, and transport
 D. Network, transport, application, session, and presentation
 ```
-
+```
+解答:A
+```
 ```
 9. Which of the following technologies integrates previously independent security solutions 
 with the goal of providing simplicity, centralized control, and streamlined processes?
