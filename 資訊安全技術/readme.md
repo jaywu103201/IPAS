@@ -78,6 +78,13 @@ to help intruders maintain access to systems while avoiding detection。
 Rootkit Hunter
 chkrootkit
 
+tkmru/awesome-linux-rootkits
+https://github.com/tkmru/awesome-linux-rootkits
+
+通過chkrootkit學習如何在linux下檢測RootKit
+chkrootkit | grep INFECTED
+https://www.itread01.com/content/1545168977.html
+
 針對 Windows 環境：
 偵測用免費工具：
 Windows Sysinternals RootkitRevealer
