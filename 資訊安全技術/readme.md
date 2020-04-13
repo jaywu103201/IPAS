@@ -27,7 +27,8 @@
 ```
 ```
 網路基本知識:
-IP addressing: Classful vs classless
+IP addressing: Classful vs classlessful
+classful的定義: A B C D E
 網路遮罩(subnet mask)有何用處?
 子網路切割:
 
