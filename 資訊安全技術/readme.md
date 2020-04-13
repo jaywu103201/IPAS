@@ -119,6 +119,108 @@ Nebula Shell Exploits (Solutions 00-09)
 Shell-based exploit exercises
 
 ```
+### 系統安全實戰
+```
+1.如何確認遠端電腦存在(LIVE)
+2.如何確認遠端電腦的作業系統及版本
+3.如何找出該系統的漏洞
+4.如何確認該系統的漏洞
+5.如何進行安全(攻擊)測試
+6.如何控制遠端電腦
+```
+```
+1.	如何確認遠端電腦存在(LIVE)
+掃整個網段的IP
+Ipscan superscan 
+Nmap 
+netdiscover
+單一 IP: ping
+
+CLT 1: Local Network Scanning with netdiscover | Kali Linux [ Command Line Tips ]
+https://www.youtube.com/watch?v=6D400-nphqw
+
+WINDOWS
+ipconfig /?
+ipconfig /all
+2.	如何確認遠端電腦的作業系統及版本
+nmap -O  <<IP>>
+
+Starting Nmap 7.70 ( https://nmap.org ) at 2020-04-13 08:16 EDT
+Nmap scan report for 10.0.2.4
+Host is up (0.00030s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: 08:00:27:56:6E:8B (Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Microsoft Windows XP|2003
+OS CPE: cpe:/o:microsoft:windows_xp cpe:/o:microsoft:windows_server_2003
+OS details: Microsoft Windows XP SP2 or SP3, or Windows Server 2003
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 2.59 seconds
+
+3.	如何找出該系統的漏洞
+CVE
+MS
+XP ===  ms-08-067
+WINDOWS 10 == ms17-010
+Smb v3
+SMBv3 Vulnerability
+CVE-2020-0796: Microsoft SMBv3 Remote Code Execution Vulnerability Analysis
+https://blog.rapid7.com/2020/03/12/cve-2020-0796-microsoft-smbv3-remote-code-execution-vulnerability-analysis/
+
+4.	如何確認該系統的漏洞
+XP == ms-08-067 ? ms17-010? CVE-2020-0796
+Nmap nse 
+nmap --script smb-vuln-ms08-067.nse -p445   <<IP>>
+nmap -p445 --script smb-vuln-ms17-010  <<IP>>
+locate *.nse
+ls /usr/share/nmap/scripts/ | grep smb
+
+smb2-capabilities.nse
+smb2-security-mode.nse
+smb2-time.nse
+smb2-vuln-uptime.nse
+smb-brute.nse
+smb-double-pulsar-backdoor.nse
+smb-enum-domains.nse
+smb-enum-groups.nse
+smb-enum-processes.nse
+smb-enum-services.nse
+smb-enum-sessions.nse
+smb-enum-shares.nse
+smb-enum-users.nse
+smb-flood.nse
+smb-ls.nse
+smb-mbenum.nse
+smb-os-discovery.nse
+smb-print-text.nse
+smb-protocols.nse
+smb-psexec.nse
+smb-security-mode.nse
+smb-server-stats.nse
+smb-system-info.nse
+smb-vuln-conficker.nse
+smb-vuln-cve2009-3103.nse
+smb-vuln-cve-2017-7494.nse
+smb-vuln-ms06-025.nse
+smb-vuln-ms07-029.nse
+smb-vuln-ms08-067.nse
+smb-vuln-ms10-054.nse
+smb-vuln-ms10-061.nse
+smb-vuln-ms17-010.nse
+smb-vuln-regsvc-dos.nse
+
+pr4jwal/CVE-2020-0796
+wget https://raw.githubusercontent.com/pr4jwal/CVE-2020-0796/master/cve-2020-0796.nse
+5.      如何進行安全(攻擊)測試
+6.      如何控制遠端電腦
+
+```
 # 3.資安維運技術
 ```        
   3.1.惡意程式防護與弱點管理(vulnerability management)
