@@ -46,12 +46,71 @@ classful的定義: A B C D E
     2.2.1.作業系統攻擊手法分析:rootkits vs anti-rootkits
        https://recover.pixnet.net/blog/post/4535973-anti-rootkits-%E5%B7%A5%E5%85%B7%E6%95%B4%E8%A3%A1%E5%8C%85
     2.2.2.網站安全--
-        網頁攻擊手法分析:OWASP TOP 10
+        網頁攻擊手法分析:OWASP TOP 10====網站十大類型漏洞
         SQL injection攻擊手法分析 
         XSS 攻擊手法分析
     2.2.3.程式與開發安全
         a.程式漏洞分析: Buffer overflow
+          常見的程式漏洞(不含網站類型漏洞): 大部分指c/c++程式
+          (1)Buffer overflow
+          (2)format string vuln.
+          (3)integer overflow
+          (4)heap overflow
         b.SDLC vs SSDLC
+```
+### Rootkits
+```
+Rootkits: Subverting the Windows Kernel
+
+Rootkit 的定義：
+A rootkit is a tool that is designed to hide itself and other processes、 data and/or activity on a system。
+引用於此： The definition of a rootkit
+
+維基百科上的解釋：
+A rootkit is a set of software tools intended to conceal running processes， files or system data from the operating system。
+Rootkits have their origin in benign applications， 
+but in recent years have been used increasingly by malware 
+to help intruders maintain access to systems while avoiding detection。
+```
+### Anti-Rootkits 工具
+```
+針對 Linux 環境：
+Rootkit Hunter
+chkrootkit
+
+針對 Windows 環境：
+偵測用免費工具：
+Windows Sysinternals RootkitRevealer
+System Virginity Verifier (SVV)
+Rootkit Unhooker
+ThreatFire
+GMER
+
+防毒軟體廠商的免費工具：
+TrendMicro Rootkit Buster
+McAfee Rootkit Detective
+Sophos Anti-Rootkit
+Panda Anti-Rootkit
+F-Secure BlackLight
+
+中國大陸的免費工具：
+冰刃 IceSword
+DarkSpy Anti-Rootkit
+
+其他族繁不及備載的工具：
+Rootkit Detection & Removal Software
+```
+### 程式安全實戰: Protostar
+```
+https://exploit-exercises.lains.space/protostar/
+解答: https://github.com/z3tta/Exploit-Exercises-Protostar
+```
+```
+https://exploit-exercises.lains.space/nebula/level00/
+
+Nebula Shell Exploits (Solutions 00-09)
+Shell-based exploit exercises
+
 ```
 # 3.資安維運技術
 ```        
