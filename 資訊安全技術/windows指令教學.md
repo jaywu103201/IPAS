@@ -1,5 +1,15 @@
 #
 ```
+taskkill
+tasklist
+task manager==> Process ID
+
+netstat /?
+
+net session /help
+
+```
+```
 
 NET指令是Windows NT中的一個功能強大的工具。雖然必須用指令行方式執行，但它的功能確覆蓋了Windows NT中 大部分重要的管理功能
 例如，它可以管理網路環境、各種服務程序的執行和配置、進行用戶和登入管理等。
