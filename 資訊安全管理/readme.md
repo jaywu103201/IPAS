@@ -99,15 +99,25 @@ CISSP Domain 5: Identity and Access Management
 ```
   5.1.隱私保護與智慧財產權
      5_1_A:隱私保護 === 個資法
+          https://www.ithome.com.tw/article/87965
+          https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021
+          
      5_1_B:智慧財產權(Intellectual Property Rights)  IP
+     
   5.2.資訊倫理、法規遵循(含GDPR)與稽核
      5.2.1資訊倫理:
           資訊倫理:PAPA
+          https://sis.binus.ac.id/2018/02/22/papa-privacy-accuracy-property-and-accessibility/
      5.2.2.法規遵循
           智慧財產保護法
           個人資料保護法
           資安管理法
           史上最嚴苛的歐盟個資料保護法GDPR
+             違反GDPR重罰首例，Google遭法國重罰5千萬歐元  https://www.ithome.com.tw/news/128391
+
+             史上最嚴個資法GDPR上路滿週年，交出了一份成果報告  2019.05.29 by  楊晨欣
+             https://www.bnext.com.tw/article/53456/gdpr-first-year-gathered-56million-fine
+           
      5.2.3.稽核
       稽核類型:第一方稽核|第二方稽核|第三方稽核 
       稽核人員應遵守四大原則
