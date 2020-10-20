@@ -82,6 +82,14 @@ https://www.youtube.com/watch?v=QqNRNhOcpgo
 ```
 ## Linux版SMB遠程代碼執行漏洞(CVE-2017-7494)-SambaCry 
 ```
+卡巴斯基：鎖定SambaCry漏洞的攻擊現身了，被用來開採Monero
+卡巴斯基透過誘捕系統發現首個針對SambaCry的攻擊程式，但並非像WannaCry用來散佈勒索軟體，
+這支攻擊程式被用來植入虛擬貨幣Monero採礦工具，一個月來為駭客賺進98個Monero，約5500美元。
+文/陳曉莉 | 2017-06-12發表
+
+https://www.ithome.com.tw/news/114877
+```
+```
 https://www.itdaan.com/tw/b6fb454e3466
 ```
 ```
