@@ -63,6 +63,8 @@ https://www.ithome.com.tw/news/111254
  一般情況下，SSRF攻擊的目標是從外網無法訪問的內部系統。
  
 https://github.com/cujanovic/SSRF-Testing
+
+https://websec.readthedocs.io/zh/latest/vuln/ssrf.html
 ```
 ```
 年度十大網站攻擊技術公布，臺灣滲透測試專家研究獲第一
