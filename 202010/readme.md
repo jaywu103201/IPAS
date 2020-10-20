@@ -1,5 +1,11 @@
 #
 ```
+19歲漏洞獵人晉身為百萬身價駭客
+來自阿根廷年僅19歲的Santiago Lopez，成為HackerOne平台第一位獲得百萬美元獎金的漏洞獵人
+文/陳曉莉 | 2019-03-04發表
+https://www.ithome.com.tw/news/129088
+```
+```
 https://www.ipas.org.tw/ISE/AbilityIndex.aspx
 ```
 ```
