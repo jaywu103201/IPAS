@@ -97,4 +97,6 @@ f0270e9935270e2d5a04ce5abd64d3bf  test.txt
 
 md5sum test.txt 
 bc9c40435f30f46cace989bdef107e4c  test.txt
+
+32*4 bits = 128 bits
 ```
