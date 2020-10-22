@@ -31,6 +31,11 @@ line with checksum, a space, a character indicating input mode ('*' for binary,
 GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
 Full documentation at: <https://www.gnu.org/software/coreutils/sha1sum>
 or available locally via: info '(coreutils) sha1sum invocation'
+```
 
+```
+sha1sum test.txt 
+a5e057402eb4d4dc45e002443985b4150f144297  test.txt
 
+40*4 bits ==160 bits
 ```
