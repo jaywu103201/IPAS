@@ -1,4 +1,4 @@
-#
+# md5sum
 ```
 https://en.wikipedia.org/wiki/Md5sum
 https://zh.wikipedia.org/wiki/Md5sum
@@ -24,6 +24,14 @@ a disk error or non-malicious meddling.
 The md5sum program is included in most Unix-like operating systems or compatibility layers such as Cygwin.
 
 The original C code was written by Ulrich Drepper and extracted from a 2001 release of glibc
+```
+
+```
+有關md5sum的敘述下列何者為是?
+(A)128位元MD5雜湊值
+(B)
+(C)
+(D)
 ```
 #
 ```
@@ -60,7 +68,21 @@ Full documentation at: <https://www.gnu.org/software/coreutils/md5sum>
 or available locally via: info '(coreutils) md5sum invocation'
 
 ```
+```
+md5sum --version
+md5sum (GNU coreutils) 8.30
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
 
+Written by Ulrich Drepper, Scott Miller, and David Madore.
+
+
+KALI linux 2019 20201022
+```
+
+# md5sum簡單測試
 ```
 gedit test.txt
 
