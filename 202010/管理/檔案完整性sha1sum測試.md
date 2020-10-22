@@ -76,5 +76,8 @@ line with checksum, a space, a character indicating input mode ('*' for binary,
 GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
 Full documentation at: <https://www.gnu.org/software/coreutils/sha256sum>
 or available locally via: info '(coreutils) sha2 utilities'
-
+```
+```
+sha256sum test.txt
+d583e6d5c44663c9e16bef586e24570406ca3acb07e61efd23d7478b2cce77ea  test.txt
 ```
