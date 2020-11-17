@@ -31,6 +31,17 @@
 # 2. 作業系統與應用程式安全
 ```
 2-1.作業系統安全
+    Windows Internals, Part 1: 
+    System architecture, processes, threads, memory management, and more, 7/e 
+    MicroSoft   2017-05-15
+    
+    Learn Windows PowerShell in a Month of Lunches, 3/e (繁體中文版)
+    博碩文化 2019-01-14
+    
+    Windows Sysinternals 實戰指南 Windows Sysinternals实战指南
+    馬克·拉西諾維 (Mark Russinovich), 艾倫·馬格西斯 (Aaron Margosis)
+    人民郵電  2017-10-01
+
 2-2.作業系統與應用程式 (含資料庫與網頁)攻擊手法
 
 2-3.程式與開發安全
