@@ -110,7 +110,7 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
 ?>
 ```
 
-###　中階防護程式碼
+### 中階防護程式碼
 ```
 if( isset( $_POST[ 'Submit' ]  ) ) {
     $target = $_REQUEST[ 'ip' ];
@@ -124,7 +124,7 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
     // Remove any of the charactars in the array (blacklist).
     $target = str_replace( array_keys( $substitutions ), $substitutions, $target );
 ```
-###　攻擊中階防護程式
+### 攻擊中階防護程式
 ```
 黑名單(blacklist)技術 ===>超容易被繞過
 ```
@@ -160,7 +160,7 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
 ```
 127.2.3.4 |pwd
 ```
-### 終極防護程式
+### 終極防護程式 ====>impossible啦!
 ```
 <?php
 
