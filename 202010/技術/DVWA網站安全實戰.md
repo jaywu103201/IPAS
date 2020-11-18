@@ -38,6 +38,8 @@ docker run -p 80:80 -t vulnerables/web-dvwa
 ```
 
 ```
+![表單.jpg](pic/表單.jpg) 
+
 
 原始碼分析
 ```
