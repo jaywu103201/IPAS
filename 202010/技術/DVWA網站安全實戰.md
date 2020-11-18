@@ -3,7 +3,7 @@
 
 
 ```
-# 環境建置
+# 1.環境建置
 ```
 使用環境
 
@@ -30,3 +30,11 @@ docker run -p 80:80 -t vulnerables/web-dvwa
 成功畫面
 
 ![DVWA_3.png](pic/DVWA_3.png)
+
+
+# 2.測試
+
+### command injection
+```
+
+```
